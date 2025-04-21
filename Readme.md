@@ -193,7 +193,7 @@ where:
 * *msg is a pointer to the response received by the slave including the slave address and command id.
 * *lenght is a pointer to the response lenght.
 
-here is a example how you can use it:
+here is an example on how you can use it:
 
 ``` C
 void command_notify_name(uint8_t *msg , uint8_t len)
